@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+    <!-- Incluir los archivos donde este guardado el estilo en formato css -->
+    <link rel="stylesheet" href="css/juego.css">
+    <!-- Incluir los archivos donde este el codigo Javascript del juego -->
+    <audio src="/recursos-ciudad-zombie/michael_myers.mp3" autoplay loop></audio>
+</head>
+
+<body>
+    <div id="botones">
+        <input type="button" id="boton_play_pause" value="Pause" />
+        <input type="button" value="Reiniciar" onClick="window.location.reload()" class="boton-recargar" id="reiniciar">
+    </div>
+</body>
+<script src='js/resources.js'> </script>
+<script src='js/jugador.js'> </script>
+<script src='js/dibujante.js'> </script>
+<script src='js/obstaculo.js'> </script>
+<script src='js/enemigo.js'> </script>
+<script src='js/zombie_caminante.js'></script>
+<script src='js/zombie_conductor.js'></script>
+<script src='js/juego.js'> </script>
+
+</html>
